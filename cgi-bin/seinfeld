@@ -5,7 +5,7 @@ if %r{\A/(.+?)(\.png)?\z} =~ ENV["PATH_INFO"]
   text = $1
 else
   puts "Content-Type: text/html\n\n"
-  puts "Usage: https://charlie.bz/cgi-bin/seinfeld/YOUR_TEXT.png"
+  puts "Usage: https://charlie.bz/cgi-bin/seinfeld/Somerset.png"
   exit
 end
 
